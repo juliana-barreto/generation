@@ -1,5 +1,3 @@
-<br />
-
 <div align="center">
     <img src="https://i.imgur.com/r9lrbPG.png" title="Generation Brasil Logo" width="30%"/>
 </div>
@@ -18,45 +16,64 @@
 
 ---
 
-## Visão Geral do Repositório
+## Visão Geral
 
-Este repositório consolida as atividades práticas desenvolvidas durante o módulo de fundamentos de programação do Bootcamp Full Stack da [Generation Brasil](https://brazil.generation.org/).
+Este repositório consolida a trajetória prática desenvolvida durante o módulo de fundamentos de programação do Bootcamp Full Stack da [Generation Brasil](https://brazil.generation.org/).
 
-A estrutura foi organizada para segregar os conceitos de lógica de programação pura, abordados inicialmente com **JavaScript**, das implementações focadas em Estruturas de Dados e Coleções, desenvolvidas utilizando **TypeScript**. Essa divisão reflete a progressão do aprendizado, partindo da sintaxe básica e controle de fluxo para o gerenciamento eficiente de dados em memória.
+O projeto foi arquitetado para demonstrar a evolução do raciocínio lógico e técnico. A estrutura segrega os conceitos iniciais de algoritmo e sintaxe abordados com **JavaScript** das implementações mais robustas focadas em Orientação a Objetos e Estruturas de Dados desenvolvidas com **TypeScript**. Essa divisão reflete a progressão pedagógica que parte do controle de fluxo básico para o desenvolvimento de aplicações escaláveis, tipadas e seguras.
 
-## Conteúdo Programático
+## Módulos de Aprendizado
 
-Os exercícios estão divididos em dois grandes módulos, cada um focando em competências específicas do desenvolvimento backend.
+O conteúdo programático foi dividido em duas grandes etapas que cobrem desde a execução do primeiro script até a aplicação de paradigmas complexos de desenvolvimento backend.
 
-### Módulo JavaScript
-Nesta etapa o foco é a fixação da sintaxe e o desenvolvimento do raciocínio lógico. Os tópicos cobrem desde a execução do primeiro script até a manipulação de dados compostos.
+### Fundamentos com JavaScript
 
-* **Introdução e Setup:** Configuração de ambiente e execução do "Hello World".
-* **Entrada e Saída:** Interação com o usuário via terminal e manipulação de variáveis.
-* **Controle de Fluxo:** Tomada de decisões utilizando estruturas condicionais (`if`, `else`, `switch`).
-* **Laços e Arrays:** Estruturas de repetição (`for`, `while`) e introdução a vetores.
+Nesta primeira etapa o foco é a fixação da sintaxe da linguagem e o desenvolvimento do raciocínio algorítmico. Os exercícios cobrem situações cotidianas para facilitar a compreensão da lógica de programação pura, sem a complexidade inicial de tipos estáticos.
 
-### Módulo TypeScript
-Esta seção introduz a tipagem estática e aprofunda o estudo sobre como organizar e manipular conjuntos de dados complexos utilizando a API de Collections.
+| Aula | Tema | Descrição Técnica |
+| :--- | :--- | :--- |
+| **01** | Introdução e Setup | Configuração do ambiente Node.js, execução de scripts e saída de dados no console. |
+| **02** | Variáveis e Operadores | Manipulação de tipos primitivos, entrada de dados e uso de operadores aritméticos e relacionais. |
+| **03** | Controle de Fluxo | Implementação de tomadas de decisão com [if...else](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else) e [switch](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch). |
+| **04** | Laços de Repetição | Automação de tarefas repetitivas utilizando estruturas como [for](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) e [while](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while). |
+| **05** | Arrays e Matrizes | Armazenamento e manipulação de dados em estruturas indexadas unidimensionais e bidimensionais. |
 
-* **Collections Básicas:** Manipulação de Arrays tipados e uso da interface `Set` para conjuntos de valores únicos.
-* **Estruturas de Dados:** Implementação e uso de mapas chave-valor (`Map`) e estruturas lineares de comportamento específico, como Filas (`Queue`) e Pilhas (`Stack`).
+### Arquitetura e Tipagem com TypeScript
 
-## Estrutura de Diretórios
+A segunda etapa introduz o superset TypeScript para aplicar rigor técnico ao código. Aqui são explorados conceitos de orientação a objetos, contratos de interface e manipulação eficiente de memória com coleções específicas.
 
-A organização física dos arquivos segue a ordem cronológica das aulas ministradas:
+| Aula | Tema | Descrição Técnica |
+| :--- | :--- | :--- |
+| **01** | Intro e Collections | Transição para tipagem estática e uso de [Set](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Set) para listas de valores únicos. |
+| **02** | Estruturas de Dados | Implementação de estruturas lineares clássicas como [Stack](https://www.geeksforgeeks.org/stack-data-structure/) (Pilha) e [Queue](https://www.geeksforgeeks.org/queue-data-structure/) (Fila). |
+| **03** | Funções Tipadas | Declaração de assinaturas de métodos, tipagem de parâmetros e retornos. |
+| **04** | POO: Fundamentos | Criação de [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html), instanciamento de objetos e encapsulamento. |
+| **05** | POO: Herança | Reutilização de código e extensão de funcionalidades através de herança e polimorfismo. |
+| **06** | POO: Abstração | Definição de contratos rígidos utilizando Classes Abstratas e [Interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html). |
+| **07** | Tratamento de Erros | Controle de exceções e fluxo de erro com blocos `try`, `catch` e `finally`. |
+| **08** | Programação Funcional | Uso de Arrow Functions e métodos de ordem superior para um código mais declarativo. |
+
+## Estrutura do Repositório
+
+A organização física dos diretórios segue a ordem cronológica e temática das aulas ministradas, facilitando a navegação entre os paradigmas da linguagem.
 
 ```text
 generation/
 ├── javascript/
 │   ├── aula-01-intro/        # Hello World e Variáveis
-│   ├── aula-02-io/           # Entrada e Saída de Dados
-│   ├── aula-03-fluxo/        # Condicionais (If/Switch)
-│   └── aula-04-loops/        # Laços de Repetição e Arrays
+│   ├── aula-02-operadores/   # Entrada e Saída de Dados
+│   ├── aula-03-fluxo/        # Condicionais
+│   ├── aula-04-loops/        # Laços de Repetição
+│   └── aula-05-arrays/       # Vetores e Matrizes
 │
 ├── typescript/
-│   ├── aula-01-collections/  # Arrays e Set
-│   └── aula-02-estruturas/   # Queue e Stack
+│   ├── aula-01-collections/  # Arrays Tipados e Set
+│   ├── aula-02-estruturas/   # Queue e Stack
+│   ├── aula-03-funcoes/      # Funções e Métodos
+│   ├── aula-04-poo-basico/   # Classes e Objetos
+│   ├── aula-05-poo-heranca/  # Herança e Polimorfismo
+│   ├── aula-06-poo-interf/   # Interfaces e Abstração
+│   ├── aula-07-erros/        # Try/Catch
+│   └── aula-08-arrow/        # Arrow Functions
 │
 └── README.md
-```
