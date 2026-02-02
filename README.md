@@ -56,7 +56,7 @@ generation/
 │
 ├── typescript/
 │   ├── aula-01-collections/  # Arrays e Set
-│   └── aula-02-estruturas/   # Map, Queue e Stack
+│   └── aula-02-estruturas/   # Queue e Stack
 │
 └── README.md
 ```
