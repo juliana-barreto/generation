@@ -9,9 +9,9 @@
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
     <br />
-    <img src="https://img.shields.io/github/last-commit/juliana-barreto/NOME_DO_REPO?style=flat-square&color=orange" />
-    <img src="https://img.shields.io/github/languages/count/juliana-barreto/NOME_DO_REPO?style=flat-square&color=blue" />
-    <img src="https://img.shields.io/github/repo-size/juliana-barreto/NOME_DO_REPO?style=flat-square&color=green" />
+    <img src="https://img.shields.io/github/last-commit/juliana-barreto/generation?style=flat-square&color=orange" />
+    <img src="https://img.shields.io/github/languages/count/juliana-barreto/generation?style=flat-square&color=blue" />
+    <img src="https://img.shields.io/github/repo-size/juliana-barreto/generation?style=flat-square&color=green" />
 </div>
 
 ---
