@@ -1,4 +1,3 @@
-
 -- A cláusula IF NOT EXISTS evita erros caso o banco já tenha sido criado
 CREATE DATABASE IF NOT EXISTS db_generation_game_online;
 
